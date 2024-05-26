@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NoteDeFrais</string>
+
+    <string name="username_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button_text">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="prenom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="update">Mettre à jour</string>
+    <string name="save">S\'enregistrer</string>
+    <string name="fraisKilometriqueDate">Date</string>
+    <string name="hebergementDate">Date</string>
+    <string name="remember_email_text">Mémoriser email  </string>
+    <string name="remember_password_text">Mémoriser mot de passe </string>
+    <string name="fraisKilometriqueLieuDepart">Lieu de départ</string>
+    <string name="fraisKilometriqueLieuArrivee">Lieu arrivée</string>
+    <string name="fraisKilometriqueNomClient">Nom du client</string>
+    <string name="fraisKilometriqueKilometrage">Kilométrage</string>
+    <string name="fraisKilometriquePhotocopieCarteGrise">Photocopies de la carte grise</string>
+    <string name="saveFrais">Enregistrer frais</string>
+    <string name="fraisKilometriqueTitle">Frais kilométrique</string>
+    <string name="fraisKilometriqueMontant">Montant</string>
+    <string name="dejeunerTitle">Déjeuner</string>
+    <string name="dejeunerDate">Date</string>
+    <string name="saveH">Valider</string>
+    <string name="saveD">Valider</string>
+    <string name="dejeunerMontant">Montant</string>
+    <string name="dejeunerNomSociete">Nom de la société</string>
+    <string name="hebergementMontant">Montant</string>
+    <string name="hebergmentDistance">Distance</string>
+    <string name="hebergementTitle">Hébergement</string>
+</resources>

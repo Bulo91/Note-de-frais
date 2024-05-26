@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FraiskilometriqueActivity">
+
+    <TextView
+        android:id="@+id/textTitleF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fraisKilometriqueTitle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editDateF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueDate"
+        android:inputType="date"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editMontantF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueMontant"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editLieuDepartF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueLieuDepart"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editLieuArriveeF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueLieuArrivee"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editNomClientF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueNomClient"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editKilometrageF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriqueKilometrage"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editPhotocopieCarteGriseF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fraisKilometriquePhotocopieCarteGrise"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnSaveF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveFrais"
+        android:layout_marginTop="16dp"
+      />
+</LinearLayout>

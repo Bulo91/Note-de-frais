@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <!-- Titre -->
+
+    <!-- Boutons radio pour les choix -->
+
+    <!-- Bouton pour valider la sélection -->
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:padding="16dp"
+        android:text="Sélectionnez une note de frais :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupChoices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle">
+
+        <RadioButton
+            android:id="@+id/radioButtonAccommodation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hébergement" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note de taxi" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Déjeuner" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKilometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frais kilométriques" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupChoices"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HebergementActivity">
+
+    <TextView
+        android:id="@+id/textTitleH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hebergementTitle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/editDateH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hebergementDate"
+        android:inputType="date"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editMontantH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hebergementMontant"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/editDistanceH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hebergmentDistance"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnSaveH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveH"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
